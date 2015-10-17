@@ -121,15 +121,14 @@ var test = function() {
 
 
 
-  var counter = function(){
+  /*var counter = function(){
     for (var i = 1; i <= 5; i++) {
       setTimeout( function timer(){
           console.log(i);
       }, i * 1000 );
     }
   };
-  counter();
-  
+  counter();*/
   /*
 
   Above you have a function named counter. Examine the function (without running the code) then below write what you expect to happen when the funciton is invoked. *Hint: setTimeout calls a function or evaluates an expression after a specified number of milliseconds.
